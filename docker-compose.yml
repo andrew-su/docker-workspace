@@ -1,0 +1,8 @@
+version: "3"
+services:
+  node:
+    build:
+      context: ./node
+      dockerfile: node.dockerfile
+    volumes:
+      - ./node:/node
