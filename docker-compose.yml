@@ -6,3 +6,9 @@ services:
       dockerfile: node.dockerfile
     volumes:
       - ./node:/node
+  golang:
+    build:
+      context: ./golang
+      dockerfile: golang.dockerfile
+    volumes:
+      - ./golang:/go
