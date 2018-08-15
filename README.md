@@ -7,5 +7,6 @@ Currently supported development environments:
 * golang
 
 ### Usage
+* `docker-compose run --rm git`
 * `docker-compose run node`
 * `docker-compose run golang`

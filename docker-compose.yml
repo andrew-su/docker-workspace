@@ -5,16 +5,16 @@ services:
       context: ./node
       dockerfile: node.dockerfile
     volumes:
-      - ./node:/node
+    - ./node:/node
   golang:
     build:
       context: ./golang
       dockerfile: golang.dockerfile
     volumes:
-      - ./golang:/go
+    - ./golang:/go
   git:
     build:
       context: ./git
       dockerfile: git.dockerfile
     volumes:
-      - .:/workspace
+    - .:/workspace
