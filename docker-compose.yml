@@ -12,3 +12,9 @@ services:
       dockerfile: golang.dockerfile
     volumes:
       - ./golang:/go
+  git:
+    build:
+      context: ./git
+      dockerfile: git.dockerfile
+    volumes:
+      - .:/workspace
